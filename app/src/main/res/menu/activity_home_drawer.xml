@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_cad_veiculo"
+            android:icon="@drawable/ic_menu_cad_veiculo"
+            android:title="Cadastro de Veículo" />
+        <item
+            android:id="@+id/nav_cad_motorista"
+            android:icon="@drawable/ic_menu_cad_motorista"
+            android:title="Cadastro de Motorista" />
+        <item
+            android:id="@+id/nav_recebimento"
+            android:icon="@drawable/ic_menu_recebimento"
+            android:title="Recebimento" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/ic_menu_historico"
+            android:title="Histórico" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Convites" />
+        </menu>
+    </item>
+
+</menu>

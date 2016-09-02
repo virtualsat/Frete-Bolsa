@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amarelo">#E0B006</color>
+    <color name="branco">#EEEEEE</color>
+    <color name="cinzaClaro">#E7E7E7</color>
+    <color name="azulClaro">#3BB3C3</color>
+    <color name="azulEscuro">#256F79</color>
+    <color name="cinzaEscuro">#272727</color>
+    <color name="preto">#4B4B4B</color>
+
+    <color name="colorPrimary">@color/azulClaro</color>
+    <color name="colorPrimaryDark">@color/azulEscuro</color>
+    <color name="colorAccent">@color/amarelo</color>
+
+</resources>
